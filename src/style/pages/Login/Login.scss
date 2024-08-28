@@ -1,0 +1,26 @@
+.login {
+  .login-content {
+    display: flex;
+    .login-header {
+      h1 {
+        position: relative;
+        top: -10px;
+        left: 250px;
+        color: black;
+      }
+    }
+    .login-image {
+      position: relative;
+      top: 100px;
+      left: -49px;
+    }
+
+    .form-login{
+        display: flex;
+        position: relative;
+        top: 150px;
+        flex-direction: column;
+        gap: 20px;
+    }
+  }
+}
